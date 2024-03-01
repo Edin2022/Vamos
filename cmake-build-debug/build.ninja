@@ -73,6 +73,39 @@ build Ejercicio1Vamos.exe: CXX_EXECUTABLE_LINKER__Ejercicio1Vamos_Debug CMakeFil
   TARGET_IMPLIB = libEjercicio1Vamos.dll.a
   TARGET_PDB = Ejercicio1Vamos.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio2Vamos
+
+
+#############################################
+# Order-only phony target for Ejercicio2Vamos
+
+build cmake_object_order_depends_target_Ejercicio2Vamos: phony || CMakeFiles/Ejercicio2Vamos.dir
+
+build CMakeFiles/Ejercicio2Vamos.dir/Ejercicio2Vamos.cpp.obj: CXX_COMPILER__Ejercicio2Vamos_Debug C$:/Users/rexyr/OneDrive/Escritorio/Vamos/Ejercicio2Vamos.cpp || cmake_object_order_depends_target_Ejercicio2Vamos
+  DEP_FILE = CMakeFiles\Ejercicio2Vamos.dir\Ejercicio2Vamos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio2Vamos.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio2Vamos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio2Vamos
+
+
+#############################################
+# Link the executable Ejercicio2Vamos.exe
+
+build Ejercicio2Vamos.exe: CXX_EXECUTABLE_LINKER__Ejercicio2Vamos_Debug CMakeFiles/Ejercicio2Vamos.dir/Ejercicio2Vamos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio2Vamos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio2Vamos.exe
+  TARGET_IMPLIB = libEjercicio2Vamos.dll.a
+  TARGET_PDB = Ejercicio2Vamos.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -101,6 +134,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build Ejercicio1Vamos: phony Ejercicio1Vamos.exe
 
+build Ejercicio2Vamos: phony Ejercicio2Vamos.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -109,7 +144,7 @@ build Ejercicio1Vamos: phony Ejercicio1Vamos.exe
 #############################################
 # Folder: C:/Users/rexyr/OneDrive/Escritorio/Vamos/cmake-build-debug
 
-build all: phony Ejercicio1Vamos.exe
+build all: phony Ejercicio1Vamos.exe Ejercicio2Vamos.exe
 
 # =============================================================================
 # Built-in targets

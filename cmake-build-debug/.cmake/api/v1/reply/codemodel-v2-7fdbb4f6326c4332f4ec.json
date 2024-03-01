@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Vamos",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "Ejercicio1Vamos::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ejercicio1Vamos-Debug-bd223b93b5aa1c057cb9.json",
 					"name" : "Ejercicio1Vamos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio2Vamos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio2Vamos-Debug-e9711ab3fcdd796ee5c7.json",
+					"name" : "Ejercicio2Vamos",
 					"projectIndex" : 0
 				}
 			]

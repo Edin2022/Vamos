@@ -1,3 +1,7 @@
 # ninja log v5
 1	370	7310268358876566	CMakeFiles/Ejercicio1Vamos.dir/Ejercicio1Vamos.cpp.obj	5cfd86cfac030057
 371	576	7310268360816359	Ejercicio1Vamos.exe	d0bfc11b2efeafb4
+1	371	7310275007082686	CMakeFiles/Ejercicio2Vamos.dir/Ejercicio2Vamos.cpp.obj	40f2acba8fd8f133
+371	485	7310275008192509	Ejercicio2Vamos.exe	39794c35f74ded60
+3	338	7310275170505081	CMakeFiles/Ejercicio2Vamos.dir/Ejercicio2Vamos.cpp.obj	40f2acba8fd8f133
+338	442	7310275171497661	Ejercicio2Vamos.exe	39794c35f74ded60

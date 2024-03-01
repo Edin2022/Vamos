@@ -1,3 +1,4 @@
 C:/Users/rexyr/OneDrive/Escritorio/Vamos/cmake-build-debug/CMakeFiles/Ejercicio1Vamos.dir
+C:/Users/rexyr/OneDrive/Escritorio/Vamos/cmake-build-debug/CMakeFiles/Ejercicio2Vamos.dir
 C:/Users/rexyr/OneDrive/Escritorio/Vamos/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/rexyr/OneDrive/Escritorio/Vamos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
